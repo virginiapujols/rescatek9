@@ -6,8 +6,7 @@ Es un app sencilla que te permite agregar y visualizar perros rescatados que nec
 El objetivo principal de esta app es demostrar el uso de Firebase como BaaS (Backend-as-a-Service).
 
 ## Capturas de Pantalla
-![Agregar un nuevo rescate](https://github.com/virginiapujols/rescatek9/blob/master/Screenshot%20Add.png=250x)
-![Listado de rescates](https://github.com/virginiapujols/rescatek9/blob/master/Screenshot%20List.png=250x)
+<img src="https://github.com/virginiapujols/rescatek9/blob/master/Screenshot%20List.png" width="400" ><img src="https://github.com/virginiapujols/rescatek9/blob/master/Screenshot%20Add.png" width="400" >
 
 
 ### Dependencias
