@@ -1,0 +1,826 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59106D6C032BAC74C9002CE5 /* Pods_RescateK9_RescateK9UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA1156FF512FBBE9B466F3C /* Pods_RescateK9_RescateK9UITests.framework */; };
+		5C2203DCD9332C8E8F56B01E /* Pods_RescateK9.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECDBC67C028B30D79C61DA57 /* Pods_RescateK9.framework */; };
+		F1795CA12561761000653C57 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1795CA02561761000653C57 /* GoogleService-Info.plist */; };
+		F1795D072561D54600653C57 /* AddRescuePetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1795D062561D54600653C57 /* AddRescuePetViewController.swift */; };
+		F1795D112561DEFE00653C57 /* RescuePet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1795D102561DEFE00653C57 /* RescuePet.swift */; };
+		F1795D692562274700653C57 /* UIUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1795D682562274700653C57 /* UIUtil.swift */; };
+		F1795DBD2562B31000653C57 /* ImageSourcePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1795DBC2562B31000653C57 /* ImageSourcePickerDialog.swift */; };
+		F1795DDC2562FF8100653C57 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1795DDB2562FF8100653C57 /* UIImageView+Extension.swift */; };
+		F1795DE52563013A00653C57 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1795DE42563013A00653C57 /* Constants.swift */; };
+		F1795DEA2563020D00653C57 /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1795DE92563020D00653C57 /* CALayer+Extension.swift */; };
+		F1D7BAF5255F6C7E007770E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D7BAF4255F6C7E007770E4 /* AppDelegate.swift */; };
+		F1D7BAF7255F6C7E007770E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D7BAF6255F6C7E007770E4 /* SceneDelegate.swift */; };
+		F1D7BAF9255F6C7E007770E4 /* RescuePetListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D7BAF8255F6C7E007770E4 /* RescuePetListViewController.swift */; };
+		F1D7BAFC255F6C7E007770E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D7BAFA255F6C7E007770E4 /* Main.storyboard */; };
+		F1D7BAFE255F6C80007770E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1D7BAFD255F6C80007770E4 /* Assets.xcassets */; };
+		F1D7BB01255F6C80007770E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D7BAFF255F6C80007770E4 /* LaunchScreen.storyboard */; };
+		F1D7BB0C255F6C80007770E4 /* RescateK9Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D7BB0B255F6C80007770E4 /* RescateK9Tests.swift */; };
+		F1D7BB17255F6C80007770E4 /* RescateK9UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D7BB16255F6C80007770E4 /* RescateK9UITests.swift */; };
+		F2C1D5362EED96F35D3B0FAD /* Pods_RescateK9Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1311931D7F6CAFE3B6AC7430 /* Pods_RescateK9Tests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1D7BB08255F6C80007770E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1D7BAE9255F6C7E007770E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1D7BAF0255F6C7E007770E4;
+			remoteInfo = RescateK9;
+		};
+		F1D7BB13255F6C80007770E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1D7BAE9255F6C7E007770E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1D7BAF0255F6C7E007770E4;
+			remoteInfo = RescateK9;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08E22ED0BA4893E358FA1F0D /* Pods-RescateK9Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RescateK9Tests.debug.xcconfig"; path = "Target Support Files/Pods-RescateK9Tests/Pods-RescateK9Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1311931D7F6CAFE3B6AC7430 /* Pods_RescateK9Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RescateK9Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D52181F541F036DBD7306A8 /* Pods-RescateK9-RescateK9UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RescateK9-RescateK9UITests.release.xcconfig"; path = "Target Support Files/Pods-RescateK9-RescateK9UITests/Pods-RescateK9-RescateK9UITests.release.xcconfig"; sourceTree = "<group>"; };
+		4DE48A1DB0ADA54B80502B8A /* Pods-RescateK9.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RescateK9.debug.xcconfig"; path = "Target Support Files/Pods-RescateK9/Pods-RescateK9.debug.xcconfig"; sourceTree = "<group>"; };
+		5111F7C68376FC98FE70C176 /* Pods-RescateK9-RescateK9UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RescateK9-RescateK9UITests.debug.xcconfig"; path = "Target Support Files/Pods-RescateK9-RescateK9UITests/Pods-RescateK9-RescateK9UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		54C52028C05DF13A865D82EE /* Pods-RescateK9.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RescateK9.release.xcconfig"; path = "Target Support Files/Pods-RescateK9/Pods-RescateK9.release.xcconfig"; sourceTree = "<group>"; };
+		BA2C74031EE1F4904B788613 /* Pods-RescateK9Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RescateK9Tests.release.xcconfig"; path = "Target Support Files/Pods-RescateK9Tests/Pods-RescateK9Tests.release.xcconfig"; sourceTree = "<group>"; };
+		ECDBC67C028B30D79C61DA57 /* Pods_RescateK9.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RescateK9.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1795CA02561761000653C57 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F1795D062561D54600653C57 /* AddRescuePetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRescuePetViewController.swift; sourceTree = "<group>"; };
+		F1795D102561DEFE00653C57 /* RescuePet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RescuePet.swift; sourceTree = "<group>"; };
+		F1795D682562274700653C57 /* UIUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIUtil.swift; sourceTree = "<group>"; };
+		F1795DBC2562B31000653C57 /* ImageSourcePickerDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSourcePickerDialog.swift; sourceTree = "<group>"; };
+		F1795DDB2562FF8100653C57 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		F1795DE42563013A00653C57 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F1795DE92563020D00653C57 /* CALayer+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Extension.swift"; sourceTree = "<group>"; };
+		F1D7BAF1255F6C7E007770E4 /* RescateK9.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RescateK9.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1D7BAF4255F6C7E007770E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1D7BAF6255F6C7E007770E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F1D7BAF8255F6C7E007770E4 /* RescuePetListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RescuePetListViewController.swift; sourceTree = "<group>"; };
+		F1D7BAFB255F6C7E007770E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1D7BAFD255F6C80007770E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1D7BB00255F6C80007770E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1D7BB02255F6C80007770E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1D7BB07255F6C80007770E4 /* RescateK9Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RescateK9Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1D7BB0B255F6C80007770E4 /* RescateK9Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RescateK9Tests.swift; sourceTree = "<group>"; };
+		F1D7BB0D255F6C80007770E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1D7BB12255F6C80007770E4 /* RescateK9UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RescateK9UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1D7BB16255F6C80007770E4 /* RescateK9UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RescateK9UITests.swift; sourceTree = "<group>"; };
+		F1D7BB18255F6C80007770E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCA1156FF512FBBE9B466F3C /* Pods_RescateK9_RescateK9UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RescateK9_RescateK9UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1D7BAEE255F6C7E007770E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C2203DCD9332C8E8F56B01E /* Pods_RescateK9.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D7BB04255F6C80007770E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C1D5362EED96F35D3B0FAD /* Pods_RescateK9Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D7BB0F255F6C80007770E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59106D6C032BAC74C9002CE5 /* Pods_RescateK9_RescateK9UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		230FEDF99B735799DD24F038 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DE48A1DB0ADA54B80502B8A /* Pods-RescateK9.debug.xcconfig */,
+				54C52028C05DF13A865D82EE /* Pods-RescateK9.release.xcconfig */,
+				5111F7C68376FC98FE70C176 /* Pods-RescateK9-RescateK9UITests.debug.xcconfig */,
+				1D52181F541F036DBD7306A8 /* Pods-RescateK9-RescateK9UITests.release.xcconfig */,
+				08E22ED0BA4893E358FA1F0D /* Pods-RescateK9Tests.debug.xcconfig */,
+				BA2C74031EE1F4904B788613 /* Pods-RescateK9Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E45D509B2C388AD713F6194F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECDBC67C028B30D79C61DA57 /* Pods_RescateK9.framework */,
+				FCA1156FF512FBBE9B466F3C /* Pods_RescateK9_RescateK9UITests.framework */,
+				1311931D7F6CAFE3B6AC7430 /* Pods_RescateK9Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1795D0B2561D56200653C57 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F1D7BAFD255F6C80007770E4 /* Assets.xcassets */,
+				F1D7BB02255F6C80007770E4 /* Info.plist */,
+				F1795CA02561761000653C57 /* GoogleService-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F1795D0C2561D5AE00653C57 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F1D7BAF8255F6C7E007770E4 /* RescuePetListViewController.swift */,
+				F1795D062561D54600653C57 /* AddRescuePetViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F1795D6D2562288D00653C57 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F1795DBC2562B31000653C57 /* ImageSourcePickerDialog.swift */,
+				F1795D682562274700653C57 /* UIUtil.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		F1795DDA2562FF5F00653C57 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F1795D102561DEFE00653C57 /* RescuePet.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F1795DE02562FF9300653C57 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F1795DE92563020D00653C57 /* CALayer+Extension.swift */,
+				F1795DDB2562FF8100653C57 /* UIImageView+Extension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		F1D7BAE8255F6C7E007770E4 = {
+			isa = PBXGroup;
+			children = (
+				F1D7BAF3255F6C7E007770E4 /* RescateK9 */,
+				F1D7BB0A255F6C80007770E4 /* RescateK9Tests */,
+				F1D7BB15255F6C80007770E4 /* RescateK9UITests */,
+				F1D7BAF2255F6C7E007770E4 /* Products */,
+				230FEDF99B735799DD24F038 /* Pods */,
+				E45D509B2C388AD713F6194F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F1D7BAF2255F6C7E007770E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1D7BAF1255F6C7E007770E4 /* RescateK9.app */,
+				F1D7BB07255F6C80007770E4 /* RescateK9Tests.xctest */,
+				F1D7BB12255F6C80007770E4 /* RescateK9UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1D7BAF3255F6C7E007770E4 /* RescateK9 */ = {
+			isa = PBXGroup;
+			children = (
+				F1795D0B2561D56200653C57 /* Resources */,
+				F1D7BAFA255F6C7E007770E4 /* Main.storyboard */,
+				F1D7BAFF255F6C80007770E4 /* LaunchScreen.storyboard */,
+				F1D7BAF4255F6C7E007770E4 /* AppDelegate.swift */,
+				F1D7BAF6255F6C7E007770E4 /* SceneDelegate.swift */,
+				F1795DE42563013A00653C57 /* Constants.swift */,
+				F1795DE02562FF9300653C57 /* Extensions */,
+				F1795D6D2562288D00653C57 /* Utils */,
+				F1795DDA2562FF5F00653C57 /* Model */,
+				F1795D0C2561D5AE00653C57 /* Controllers */,
+			);
+			path = RescateK9;
+			sourceTree = "<group>";
+		};
+		F1D7BB0A255F6C80007770E4 /* RescateK9Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F1D7BB0B255F6C80007770E4 /* RescateK9Tests.swift */,
+				F1D7BB0D255F6C80007770E4 /* Info.plist */,
+			);
+			path = RescateK9Tests;
+			sourceTree = "<group>";
+		};
+		F1D7BB15255F6C80007770E4 /* RescateK9UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1D7BB16255F6C80007770E4 /* RescateK9UITests.swift */,
+				F1D7BB18255F6C80007770E4 /* Info.plist */,
+			);
+			path = RescateK9UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1D7BAF0255F6C7E007770E4 /* RescateK9 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1D7BB1B255F6C80007770E4 /* Build configuration list for PBXNativeTarget "RescateK9" */;
+			buildPhases = (
+				0EF92A9E35A78763E413CEFE /* [CP] Check Pods Manifest.lock */,
+				F1D7BAED255F6C7E007770E4 /* Sources */,
+				F1D7BAEE255F6C7E007770E4 /* Frameworks */,
+				F1D7BAEF255F6C7E007770E4 /* Resources */,
+				B7706A3E5BF9EE61FE716286 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RescateK9;
+			productName = RescateK9;
+			productReference = F1D7BAF1255F6C7E007770E4 /* RescateK9.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1D7BB06255F6C80007770E4 /* RescateK9Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1D7BB1E255F6C80007770E4 /* Build configuration list for PBXNativeTarget "RescateK9Tests" */;
+			buildPhases = (
+				C47A711089B0CF3EC69158C8 /* [CP] Check Pods Manifest.lock */,
+				F1D7BB03255F6C80007770E4 /* Sources */,
+				F1D7BB04255F6C80007770E4 /* Frameworks */,
+				F1D7BB05255F6C80007770E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1D7BB09255F6C80007770E4 /* PBXTargetDependency */,
+			);
+			name = RescateK9Tests;
+			productName = RescateK9Tests;
+			productReference = F1D7BB07255F6C80007770E4 /* RescateK9Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1D7BB11255F6C80007770E4 /* RescateK9UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1D7BB21255F6C80007770E4 /* Build configuration list for PBXNativeTarget "RescateK9UITests" */;
+			buildPhases = (
+				715BE7ECA6A7D4ADB1285299 /* [CP] Check Pods Manifest.lock */,
+				F1D7BB0E255F6C80007770E4 /* Sources */,
+				F1D7BB0F255F6C80007770E4 /* Frameworks */,
+				F1D7BB10255F6C80007770E4 /* Resources */,
+				EA7CE3117D7CBC54F5278F1B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1D7BB14255F6C80007770E4 /* PBXTargetDependency */,
+			);
+			name = RescateK9UITests;
+			productName = RescateK9UITests;
+			productReference = F1D7BB12255F6C80007770E4 /* RescateK9UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1D7BAE9255F6C7E007770E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					F1D7BAF0255F6C7E007770E4 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					F1D7BB06255F6C80007770E4 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = F1D7BAF0255F6C7E007770E4;
+					};
+					F1D7BB11255F6C80007770E4 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = F1D7BAF0255F6C7E007770E4;
+					};
+				};
+			};
+			buildConfigurationList = F1D7BAEC255F6C7E007770E4 /* Build configuration list for PBXProject "RescateK9" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1D7BAE8255F6C7E007770E4;
+			productRefGroup = F1D7BAF2255F6C7E007770E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1D7BAF0255F6C7E007770E4 /* RescateK9 */,
+				F1D7BB06255F6C80007770E4 /* RescateK9Tests */,
+				F1D7BB11255F6C80007770E4 /* RescateK9UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1D7BAEF255F6C7E007770E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D7BB01255F6C80007770E4 /* LaunchScreen.storyboard in Resources */,
+				F1795CA12561761000653C57 /* GoogleService-Info.plist in Resources */,
+				F1D7BAFE255F6C80007770E4 /* Assets.xcassets in Resources */,
+				F1D7BAFC255F6C7E007770E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D7BB05255F6C80007770E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D7BB10255F6C80007770E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EF92A9E35A78763E413CEFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RescateK9-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		715BE7ECA6A7D4ADB1285299 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RescateK9-RescateK9UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7706A3E5BF9EE61FE716286 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RescateK9/Pods-RescateK9-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RescateK9/Pods-RescateK9-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RescateK9/Pods-RescateK9-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C47A711089B0CF3EC69158C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RescateK9Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA7CE3117D7CBC54F5278F1B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RescateK9-RescateK9UITests/Pods-RescateK9-RescateK9UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RescateK9-RescateK9UITests/Pods-RescateK9-RescateK9UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RescateK9-RescateK9UITests/Pods-RescateK9-RescateK9UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1D7BAED255F6C7E007770E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D7BAF9255F6C7E007770E4 /* RescuePetListViewController.swift in Sources */,
+				F1D7BAF5255F6C7E007770E4 /* AppDelegate.swift in Sources */,
+				F1795DDC2562FF8100653C57 /* UIImageView+Extension.swift in Sources */,
+				F1795DEA2563020D00653C57 /* CALayer+Extension.swift in Sources */,
+				F1795D112561DEFE00653C57 /* RescuePet.swift in Sources */,
+				F1795D692562274700653C57 /* UIUtil.swift in Sources */,
+				F1795D072561D54600653C57 /* AddRescuePetViewController.swift in Sources */,
+				F1D7BAF7255F6C7E007770E4 /* SceneDelegate.swift in Sources */,
+				F1795DBD2562B31000653C57 /* ImageSourcePickerDialog.swift in Sources */,
+				F1795DE52563013A00653C57 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D7BB03255F6C80007770E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D7BB0C255F6C80007770E4 /* RescateK9Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D7BB0E255F6C80007770E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D7BB17255F6C80007770E4 /* RescateK9UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1D7BB09255F6C80007770E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1D7BAF0255F6C7E007770E4 /* RescateK9 */;
+			targetProxy = F1D7BB08255F6C80007770E4 /* PBXContainerItemProxy */;
+		};
+		F1D7BB14255F6C80007770E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1D7BAF0255F6C7E007770E4 /* RescateK9 */;
+			targetProxy = F1D7BB13255F6C80007770E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1D7BAFA255F6C7E007770E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1D7BAFB255F6C7E007770E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1D7BAFF255F6C80007770E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1D7BB00255F6C80007770E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1D7BB19255F6C80007770E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1D7BB1A255F6C80007770E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1D7BB1C255F6C80007770E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DE48A1DB0ADA54B80502B8A /* Pods-RescateK9.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93K5VT8A2F;
+				INFOPLIST_FILE = RescateK9/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rescatek9.RescateK9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1D7BB1D255F6C80007770E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54C52028C05DF13A865D82EE /* Pods-RescateK9.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93K5VT8A2F;
+				INFOPLIST_FILE = RescateK9/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rescatek9.RescateK9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F1D7BB1F255F6C80007770E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08E22ED0BA4893E358FA1F0D /* Pods-RescateK9Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93K5VT8A2F;
+				INFOPLIST_FILE = RescateK9Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rescatek9.RescateK9Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RescateK9.app/RescateK9";
+			};
+			name = Debug;
+		};
+		F1D7BB20255F6C80007770E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA2C74031EE1F4904B788613 /* Pods-RescateK9Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93K5VT8A2F;
+				INFOPLIST_FILE = RescateK9Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rescatek9.RescateK9Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RescateK9.app/RescateK9";
+			};
+			name = Release;
+		};
+		F1D7BB22255F6C80007770E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5111F7C68376FC98FE70C176 /* Pods-RescateK9-RescateK9UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93K5VT8A2F;
+				INFOPLIST_FILE = RescateK9UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rescatek9.RescateK9UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RescateK9;
+			};
+			name = Debug;
+		};
+		F1D7BB23255F6C80007770E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D52181F541F036DBD7306A8 /* Pods-RescateK9-RescateK9UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93K5VT8A2F;
+				INFOPLIST_FILE = RescateK9UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rescatek9.RescateK9UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RescateK9;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1D7BAEC255F6C7E007770E4 /* Build configuration list for PBXProject "RescateK9" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1D7BB19255F6C80007770E4 /* Debug */,
+				F1D7BB1A255F6C80007770E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1D7BB1B255F6C80007770E4 /* Build configuration list for PBXNativeTarget "RescateK9" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1D7BB1C255F6C80007770E4 /* Debug */,
+				F1D7BB1D255F6C80007770E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1D7BB1E255F6C80007770E4 /* Build configuration list for PBXNativeTarget "RescateK9Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1D7BB1F255F6C80007770E4 /* Debug */,
+				F1D7BB20255F6C80007770E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1D7BB21255F6C80007770E4 /* Build configuration list for PBXNativeTarget "RescateK9UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1D7BB22255F6C80007770E4 /* Debug */,
+				F1D7BB23255F6C80007770E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1D7BAE9255F6C7E007770E4 /* Project object */;
+}

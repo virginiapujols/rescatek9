@@ -1,0 +1,6 @@
+framework module Pods_RescateK9Tests {
+  umbrella header "Pods-RescateK9Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
